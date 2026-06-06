@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 180px 15px 180px;
+
+}
+
+nav .left{
+    display: flex;
+    align-items:  center;
+    gap: 15px;
+}
+nav .left img{
+    margin-right: 20px;
+}
+ nav p{
+    font-size: 13px;
+ }
+
+ nav .right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+ ri-shopping-cart-2-line{
+    font-size: 17px;
+ }
+ .profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-image: url('https://wallpapers.com/images/hd/cute-cat-sunglasses-profile-picture-mw7qp9gjrp272zky.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ /* NAV bar complete*/
+
+  .sec1{
+   position: relative;
+    width: 95%;
+    align-self: center;
+    
+  }
+ section img{
+    width: 100%;
+ }
+
+ .content{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+ .content h1{
+    font-size: 35px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+ }
+ .content p{
+    letter-spacing: 1px;
+ }
+ .content button{
+    width: fit-content;
+    font-size: 15px;
+    padding: 14px;
+    background-color: rgb(0, 104, 184);
+    color: white;
+    border: none;
+ }
+
+ .cointainer3{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+ }
+
+ .cointainer3 .box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+ }
+ .cointainer3 .box img{
+    width: 45px;
+ }
+
+ .cointainer3 p{
+    color:  rgb(0, 104, 184) ;
+    font-weight: 700;
+    text-decoration: underline;
+    
+ }
